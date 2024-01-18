@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "DX51qRV/dZta+9loasYIUlS3NtqC4lYHALZY0CvR72CQBjJb/FOUmvZySokvP6cLVXqAddijIr2mJO+mPTEhCA==",
+  "dgSpecHash": "KUZcvRFwZWEPtCuxTwgLepQa9yw/Ol09rEF7uZBckExT0ahkWmmOQi6LufpatBsSQXKPA8VeWExCPrxy+olk6w==",
   "success": true,
   "projectFilePath": "/Users/macbook/Desktop/CodePulse/API/CodePulse.API/CodePulse.API/CodePulse.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

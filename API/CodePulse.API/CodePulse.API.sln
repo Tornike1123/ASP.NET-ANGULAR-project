@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePulse.API", "CodePulse.API\CodePulse.API.csproj", "{D2F4F78A-0D6E-4A0B-A50E-2696C62BDB61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePulse.API", "CodePulse.API\CodePulse.API.csproj", "{DAE25DCB-1EDC-455F-8144-6EB07E9DDA6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D2F4F78A-0D6E-4A0B-A50E-2696C62BDB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2F4F78A-0D6E-4A0B-A50E-2696C62BDB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2F4F78A-0D6E-4A0B-A50E-2696C62BDB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2F4F78A-0D6E-4A0B-A50E-2696C62BDB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE25DCB-1EDC-455F-8144-6EB07E9DDA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE25DCB-1EDC-455F-8144-6EB07E9DDA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE25DCB-1EDC-455F-8144-6EB07E9DDA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE25DCB-1EDC-455F-8144-6EB07E9DDA6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0D607AD6-A7B1-4BB6-8438-8F017156AC89}
+		SolutionGuid = {F0B7616B-AC5B-479C-A753-493BEBBFB8DD}
 	EndGlobalSection
 EndGlobal
