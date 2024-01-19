@@ -1,4 +1,28 @@
 ﻿<Properties StartupConfiguration="{DAE25DCB-1EDC-455F-8144-6EB07E9DDA6C}|https">
-  <MonoDevelop.Ide.ItemProperties.CodePulse.API FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CodePulse.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodePulse.API/Program.cs">
+    <Files>
+      <File FileName="CodePulse.API/Program.cs" Line="18" Column="1" />
+      <File FileName="CodePulse.API/appsettings.json" Line="10" Column="31" />
+      <File FileName="CodePulse.API/Data/ApplicationDbContext.cs" Line="7" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodePulse.API">
+            <Node name="CodePulse.API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
