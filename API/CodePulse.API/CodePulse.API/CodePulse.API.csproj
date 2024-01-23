@@ -24,11 +24,17 @@
     <None Remove="Models\Domain\" />
     <None Remove="Data\" />
     <None Remove="Models\DTO\" />
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\Interface\" />
+    <None Remove="Repositories\Implemetation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Models\Domain\" />
     <Folder Include="Data\" />
     <Folder Include="Models\DTO\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Interface\" />
+    <Folder Include="Repositories\Implemetation\" />
   </ItemGroup>
 </Project>
