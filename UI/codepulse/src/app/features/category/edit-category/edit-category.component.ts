@@ -1,6 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { CategoryService } from '../services/category.service';
+import { Category } from '../models/category.model';
 
 @Component({
   selector: 'app-edit-category',
@@ -9,19 +11,35 @@ import { Subscription } from 'rxjs';
 })
 export class EditCategoryComponent implements OnInit, OnDestroy {
   id: string | null = null;
-  paramsSubscriptions?: Subscription;
+  paramsSubscription?: Subscription;
+  category?: Category;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(
+    private route: ActivatedRoute,
+    private categoryService: CategoryService
+  ) {}
 
   ngOnInit(): void {
-    this.paramsSubscriptions = this.route.paramMap.subscribe({
+    this.paramsSubscription = this.route.paramMap.subscribe({
       next: (params) => {
         this.id = params.get('id');
+
+        if (this.id) {
+          this.categoryService.getCategoryById(this.id).subscribe({
+            next: (response) => {
+              this.category = response;
+            },
+          });
+        }
       },
     });
   }
 
+  onFormSubmit(): void {
+    console.log(this.category, 'edadasdas');
+  }
+
   ngOnDestroy(): void {
-    this.paramsSubscriptions?.unsubscribe();
+    this.paramsSubscription?.unsubscribe();
   }
 }
